@@ -1,0 +1,15 @@
+.video-item {
+    display: flex !important;
+    align-items: center;
+    cursor: pointer;
+}
+.video-item:hover {
+    transform: scale(1.005);
+    box-shadow: 0 0 2px 1px grey;
+}
+
+.video-item.item img {
+    max-width: 150px;
+    min-width: 150px;
+    height: auto;
+}
